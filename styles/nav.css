@@ -2,7 +2,7 @@
     overflow: hidden;
     width: 100%;
     background-color: rgb(4 28 65);
-    color: #ff2671;
+    color: #fff;
     z-index: 1;
 }
 
@@ -11,23 +11,25 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     list-style: none;
+    margin-left: 2.25em;
 }
 
 .navigation-menu a {
+    text-transform: uppercase;
     text-decoration: none;
     display: block;
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 0 2em;
     transition: all 0.3s;
 }
 
 .navigation-menu a:hover, .navigation-menu a:active {
-    color: #fff;
+    color: #ff2671;
 }
 
 .navigation-menu .active {
     border-bottom-color: white;
-    color: white;
+    color: #ff2671;
 }
 
 .sticky {
