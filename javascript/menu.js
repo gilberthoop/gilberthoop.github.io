@@ -33,7 +33,7 @@ $(document).ready(function () {
             $("#menu-links li").removeClass("active");
             $("#homeLink").addClass("active");
         }
-        else if (scrollPos >= aboutPos && scrollPos < profilePos) {
+        if (scrollPos >= aboutPos && scrollPos < profilePos) {
             $("#menu-links li").removeClass("active");
             $("#aboutLink").addClass("active");
         }
