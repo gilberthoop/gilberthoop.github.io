@@ -1,0 +1,45 @@
+.contact {
+    display: block;
+    position: relative;
+    height: 140vh;
+    padding-top: 10em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.contact>h1 {
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+
+form {
+    width: 30%;
+    margin: 2em auto;
+    position: relative;
+}
+
+.details, textarea, #submit-button {
+    display: block;
+    width: 100%;
+    margin: 5px auto;
+    padding: 0.5em;
+}
+
+textarea {
+    height: 10em;
+}
+
+#submit-button {
+    margin-top: 5%;
+    width: 40%;
+}

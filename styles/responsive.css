@@ -1,0 +1,362 @@
+@media only screen and (max-width: 1260px) {
+    .about {
+        height: 100vh;
+    }
+    #ufv+.top-text>h1, #idl-peru+.top-text>h1, #sfc+.top-text>h1, #bigorange+.top-text>h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .about {
+        height: 105vh;
+    }
+    .about>.content {
+        margin: 6em 12em;
+    }
+    .white-arrow {
+        top: 80%;
+    }
+    #portfolio {
+        height: 210vh;
+    }
+    .projectButtons a {
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .modal-container .modal-content {
+        width: 65vw;
+    }
+    .description button {
+        margin-top: 10px;
+    }
+    .about>.content {
+        margin: 6em 6em;
+    }
+    form {
+        width: 40%;
+    }
+    #submit-button {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner {
+        height: 70vh;
+    }
+    .about {
+        height: 65vh;
+    }
+    .white-arrow {
+        display: none;
+    }
+    .projectButtons a {
+        font-size: 1em;
+    }
+    #portfolio {
+        height: 240vh;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid {
+        height: 300px;
+        width: 450px;
+        margin: 0 auto;
+    }
+    @keyframes appear {
+        from {
+            position: absolute;
+            opacity: 0;
+            transform: scale(0);
+            right: 700px;
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+            right: 0;
+        }
+    }
+    @keyframes disappear {
+        from {
+            opacity: 1;
+            transform: scale(1);
+            left: 0;
+        }
+        to {
+            position: absolute;
+            opacity: 0;
+            transform: scale(0);
+            left: 700px;
+        }
+    }
+    .contact {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .modal-container .modal-content {
+        width: 75%;
+    }
+    img.media {
+        height: 250px;
+    }
+    .grid .top-text>h1 {
+        font-size: 2em;
+    }
+    #name {
+        font-size: 12px;
+    }
+    .contact {
+        height: 130vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel {
+        background-position: center;
+    }
+    .description button {
+        margin-top: 25px;
+    }
+    .navigation-menu ul, .navigation-menu li {
+        padding: 0;
+    }
+    .about {
+        height: 90vh;
+    }
+    .about>.content {
+        margin: 6em 4em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #portfolio {
+        height: 320vh;
+    }
+    .contact {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .about>.content {
+        margin: 2em 2em;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .navigation-menu {
+        justify-content: center;
+    }
+    .navigation-menu li {
+        margin: 0;
+        width: 130px;
+    }
+    .banner h1 {
+        font-size: 18pt;
+    }
+    .grid:hover .top-text {
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about {
+        height: 170vh;
+    }
+    .about .content {
+        font-size: 12pt;
+    }
+    .grid:hover .top-text {
+        top: 30%;
+    }
+    .grid:hover .bottom-text {
+        opacity: 1;
+        bottom: 30%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .container {
+        position: relative;
+    }
+    .banner {
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 7em;
+    }
+    img.media {
+        height: 250px;
+        width: 250px;
+        margin: 25px auto;
+    }
+    .banner h1 {
+        padding-top: 0;
+        font-size: 25pt;
+    }
+    .about {
+        background: none;
+        background-color: white;
+        height: 100%;
+        padding: 0.5em 0;
+    }
+    .about>.content {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    .content-two .media {
+        display: none;
+    }
+    .content-one {
+        margin: 0;
+    }
+    svg {
+        display: none;
+    }
+    .contact {
+        height: 100vh;
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+    form {
+        width: 50%;
+    }
+    footer {
+        display: none;
+    }
+}
+
+/* Changing to hamburger menu */
+
+@media only screen and (max-width: 600px) {
+    .description .title {
+        font-size: 2em;
+    }
+    .description .info {
+        font-size: 1em;
+    }
+    .topnav {
+        display: block;
+    }
+    #nav-menu {
+        display: none;
+    }
+    .banner {
+        padding-top: 7em;
+    }
+    #portfolio {
+        height: 530vh;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .description .info {
+        font-size: 0.85em;
+    }
+    .projects {
+        margin: 0 8%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .description .title {
+        font-size: 1.5em;
+    }
+    .grid {
+        width: 400px;
+    }
+    #submit-button {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .banner {
+        height: 120vh;
+        padding-top: 7em;
+    }
+    .grid {
+        width: 350px;
+    }
+    .about>.content {
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    img.media {
+        margin-top: 3em;
+        height: 300px;
+        width: 300px;
+    }
+    .banner h1 {
+        font-size: 20pt;
+    }
+    .navigation-menu a {
+        font-size: 1em;
+    }
+    .content h1 {
+        font-size: 1.75em;
+    }
+    .content p {
+        text-align: left;
+        font-size: 10pt;
+    }
+    .grid {
+        height: 250px;
+        width: 300px;
+    }
+    .grid:hover .top-text {
+        top: 23%;
+    }
+    .grid:hover .bottom-text {
+        bottom: 27%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .banner {
+        height: 100vh;
+    }
+    #portfolio {
+        height: 365vh;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    #portfolio {
+        height: 360vh;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #portfolio {
+        height: 400vh;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #portfolio {
+        height: 420vh;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    img.media {
+        height: 200px;
+        width: 200px;
+    }
+    #portfolio {
+        height: 470vh;
+    }
+}
