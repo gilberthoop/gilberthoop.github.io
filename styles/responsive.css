@@ -1,24 +1,21 @@
 @media only screen and (max-width: 1260px) {
-    .about {
-        height: 100vh;
-    }
     #ufv+.top-text>h1, #idl-peru+.top-text>h1, #sfc+.top-text>h1, #bigorange+.top-text>h1 {
         font-size: 1.5em;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .about {
-        height: 105vh;
+    .content-grid {
+        margin: 4em 7em;
     }
-    .about>.content {
-        margin: 6em 12em;
+    .content-grid-2 {
+        margin-left: 6em;
+    }
+    .content-grid-3, .content-grid-4 {
+        margin-top: 1em;
     }
     .white-arrow {
         top: 80%;
-    }
-    #portfolio {
-        height: 210vh;
     }
     .projectButtons a {
         font-size: 1.25em;
@@ -32,9 +29,6 @@
     .description button {
         margin-top: 10px;
     }
-    .about>.content {
-        margin: 6em 6em;
-    }
     form {
         width: 40%;
     }
@@ -45,19 +39,25 @@
 
 @media only screen and (max-width: 1024px) {
     .banner {
-        height: 70vh;
+        height: 110vh;
     }
-    .about {
-        height: 65vh;
+    .banner h1 {
+        font-size: 20pt;
+    }
+    .banner .media {
+        margin-left: 2.5em;
     }
     .white-arrow {
         display: none;
     }
+    .content-grid-1 {
+        margin-top: 0;
+    }
+    .content-grid-3 {
+        width: 110%;
+    }
     .projectButtons a {
         font-size: 1em;
-    }
-    #portfolio {
-        height: 240vh;
     }
     .projects {
         display: flex;
@@ -94,26 +94,54 @@
             left: 700px;
         }
     }
-    .contact {
-        height: 70vh;
-    }
 }
 
 @media only screen and (max-width: 950px) {
     .modal-container .modal-content {
         width: 75%;
     }
-    img.media {
+    .banner h1 {
+        padding-left: 0;
+        margin-left: -25px;
+    }
+    .banner a {
+        padding-right: 0;
+        margin-right: -25px;
+    }
+    .banner img.media, .content-grid-2 img.media {
         height: 250px;
+    }
+    .about {
+        padding-bottom: 4em;
+    }
+    .about .content-grid {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    .content-grid-3 {
+        width: 120%;
+    }
+    .content-grid-4 {
+        margin-left: 7em;
     }
     .grid .top-text>h1 {
         font-size: 2em;
     }
     #name {
-        font-size: 12px;
+        font-size: 10pt;
     }
-    .contact {
-        height: 130vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .banner h1 {
+        padding-top: 2em;
+        font-size: 18pt;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .banner h1 {
+        font-size: 16pt;
     }
 }
 
@@ -127,27 +155,43 @@
     .navigation-menu ul, .navigation-menu li {
         padding: 0;
     }
-    .about {
-        height: 90vh;
+    .banner {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 5em;
     }
-    .about>.content {
-        margin: 6em 4em;
+    .banner h1 {
+        font-size: 24pt;
+        padding-top: 0;
+        text-align: center;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    #portfolio {
-        height: 320vh;
+    .banner a {
+        padding-top: 2em;
+        margin: 0 auto;
     }
-    .contact {
-        height: 75vh;
+    .banner img.media {
+        margin-left: 0;
     }
 }
 
 @media only screen and (max-width: 750px) {
-    .about>.content {
-        margin: 2em 2em;
-        font-size: 1em;
+    .content-grid .content-grid-2 {
+        display: none;
+    }
+    .content-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 33% 33% 33%;
+        margin-top: 2em;
+    }
+    .content-grid-1, .content-grid-3 {
+        width: 100%;
+    }
+    .content-grid-3 {
+        margin-top: 0;
+    }
+    .content-grid-4 {
+        margin-top: 3em;
+        margin-left: 0;
     }
 }
 
@@ -159,20 +203,16 @@
         margin: 0;
         width: 130px;
     }
-    .banner h1 {
-        font-size: 18pt;
-    }
     .grid:hover .top-text {
         top: 25%;
     }
 }
 
 @media only screen and (max-width: 700px) {
-    .about {
-        height: 170vh;
-    }
-    .about .content {
+    .about .content-grid {
         font-size: 12pt;
+        margin-left: 3em;
+        margin-right: 3em;
     }
     .grid:hover .top-text {
         top: 30%;
@@ -184,48 +224,18 @@
 }
 
 @media only screen and (max-width: 670px) {
-    .container {
-        position: relative;
-    }
-    .banner {
-        flex-direction: column;
-        justify-content: flex-start;
-        text-align: center;
-        margin-top: 0;
-        padding-top: 7em;
-    }
-    img.media {
-        height: 250px;
-        width: 250px;
-        margin: 25px auto;
-    }
     .banner h1 {
-        padding-top: 0;
-        font-size: 25pt;
+        font-size: 20pt;
     }
-    .about {
-        background: none;
-        background-color: white;
-        height: 100%;
-        padding: 0.5em 0;
-    }
-    .about>.content {
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-    .content-two .media {
-        display: none;
-    }
-    .content-one {
-        margin: 0;
+    .about .content-grid {
+        font-size: 11pt;
     }
     svg {
         display: none;
     }
     .contact {
-        height: 100vh;
-        padding-top: 5em;
-        padding-bottom: 3em;
+        padding-top: 6em;
+        padding-bottom: 6em;
     }
     form {
         width: 50%;
@@ -253,8 +263,17 @@
     .banner {
         padding-top: 7em;
     }
-    #portfolio {
-        height: 530vh;
+    .banner h1 {
+        width: 130%;
+    }
+    .about {
+        padding-top: 3.5em;
+    }
+    .about .headline, #portfolio .headline {
+        font-size: 20pt;
+    }
+    .about .content-grid {
+        font-size: 10pt;
     }
 }
 
@@ -262,14 +281,21 @@
     .description .info {
         font-size: 0.85em;
     }
-    .projects {
-        margin: 0 8%;
+    .banner h1 {
+        font-size: 15pt;
+    }
+    .banner img.media {
+        height: 200px;
+        width: 200px;
     }
 }
 
 @media only screen and (max-width: 520px) {
     .description .title {
         font-size: 1.5em;
+    }
+    .banner h1 {
+        font-size: 13pt;
     }
     .grid {
         width: 400px;
@@ -279,48 +305,35 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .banner img.media {
+        height: 170px;
+        width: 170px;
+    }
+}
+
 @media only screen and (max-width: 460px) {
     .banner {
         height: 120vh;
-        padding-top: 7em;
+        padding-top: 8em;
+    }
+    .banner h1 {
+        width: 160%;
     }
     .grid {
-        width: 350px;
-    }
-    .about>.content {
-        margin-left: 2.5em;
-        margin-right: 2.5em;
+        width: 95%;
     }
 }
 
 @media only screen and (max-width: 430px) {
-    img.media {
-        margin-top: 3em;
-        height: 300px;
-        width: 300px;
-    }
-    .banner h1 {
-        font-size: 20pt;
-    }
     .navigation-menu a {
         font-size: 1em;
     }
-    .content h1 {
-        font-size: 1.75em;
+    .banner img.media {
+        display: none;
     }
-    .content p {
-        text-align: left;
-        font-size: 10pt;
-    }
-    .grid {
-        height: 250px;
-        width: 300px;
-    }
-    .grid:hover .top-text {
-        top: 23%;
-    }
-    .grid:hover .bottom-text {
-        bottom: 27%;
+    .banner h1 {
+        width: 170%;
     }
 }
 
@@ -328,35 +341,19 @@
     .banner {
         height: 100vh;
     }
-    #portfolio {
-        height: 365vh;
+}
+
+@media only screen and (max-width: 370px) {
+    .banner h1 {
+        font-size: 9pt;
+    }
+    .projects {
+        margin: 0 auto;
     }
 }
 
-@media only screen and (max-width: 411px) {
-    #portfolio {
-        height: 360vh;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    #portfolio {
-        height: 400vh;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    #portfolio {
-        height: 420vh;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    img.media {
-        height: 200px;
-        width: 200px;
-    }
-    #portfolio {
-        height: 470vh;
+@media only screen and (max-width: 320px) { 
+    .grid {
+        width: 100%;
     }
 }

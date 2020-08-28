@@ -20,9 +20,8 @@ a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 10em;
-    /* background-color: rgb(25, 25, 75); */
+    justify-content: space-around;
+    padding: 8em 10em 0 10em;
     background-image: url("../media/starfall.gif");
     background-size: cover;
     color: white;
@@ -36,7 +35,6 @@ img.media {
 
 .banner h1 {
     padding-top: 2.5em;
-    text-align: center;
     font-size: 25pt;
 }
 
@@ -45,74 +43,115 @@ img.media {
 }
 
 .about {
-    display: block;
     position: relative;
-    height: 120vh;
     background-color: rgb(51 49 50 / 9%);
+    padding-top: 10em;
+    padding-bottom: 2em;
 }
 
 .headline {
-    font-size: 2em;
     text-align: center;
-    margin: 0;
-    padding-top: 4em;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.content-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     margin: 4em 10em;
 }
 
-.content>p {
+.content-grid>p {
     font-size: 11pt;
 }
 
-.content-one {
+.content-grid-1 {
+    margin-top: 4em;
     margin-right: 2em;
-    /* flex: 1 1 0px; */
+    width: 110%;
 }
 
-.content-two {
-    /* flex: 1 1 0px; */
+.content-grid-2 {
+    margin-left: 10em;
 }
 
-#key-skills {
-    margin-top: 5%;
+.content-grid-3, .content-grid-4 {
+    position: relative;
+    margin-top: 2em;
 }
 
-.skills {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+.content-grid-3 #key-skills, .content-grid-4 #languages {
+    text-align: center;
 }
 
-.skill {
-    margin-bottom: 12px;
-    border: 1px solid #ff2671;
-    border-radius: 1em;
-    padding: 10px;
+.content-grid-3 .skills {
+    position: relative;
+    margin-left: -25px;
+}
+
+.content-grid-3 .skills.fade-right {
+    /* Enable hardware acceleration to fix laggy transitions */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    animation: fadein-right 0.8s linear;
+}
+
+@keyframes fadein-right {
+    from {
+        opacity: 0;
+        left: -43em;
+    }
+    to {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+.content-grid-3 li {
+    margin-bottom: 5px;
+}
+
+.content-grid-4 .tech-stack {
+    position: relative;
+    text-align: center;
+}
+
+.content-grid-4 .tech-stack.fade-left {
+    /* Enable hardware acceleration to fix laggy transitions */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    animation: fadein-left 0.8s linear;
+}
+
+@keyframes fadein-left {
+    from {
+        opacity: 0;
+        right: -50em;
+    }
+    to {
+        opacity: 1;
+        right: 0;
+    }
+}
+
+.content-grid-4 .tech {
     cursor: pointer;
     transition: all 0.4s;
 }
 
-.skill:hover {
-    color: #fff;
-    background-color: rgb(25, 25, 75);
-    border-color: rgb(25, 25, 75);
+.content-grid-4 .tech:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff2671;
 }
 
 .white-arrow {
     position: absolute;
     top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.blue-arrow {
-    position: absolute;
-    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

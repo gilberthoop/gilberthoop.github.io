@@ -13,9 +13,13 @@ $(document).ready(function () {
     }
 
     // $(window).scroll(function () {
-    //     if (window.pageYOffset >= $("#nav-menu").offset().top) {
+    //     var navPosition = $("#nav-menu").offset().top;
+    //     var scrollPos = $(window).scrollTop();
+
+    //     if (scrollPos >= navPosition) {
     //         $("#nav-menu").addClass("sticky");
-    //     } else {
+    //     }
+    //     if (scrollPos < navPosition) {
     //         $("#nav-menu").removeClass("sticky");
     //     }
     // });

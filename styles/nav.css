@@ -32,9 +32,19 @@
     color: #ff2671;
 }
 
-.sticky {
+.navigation-menu.sticky {
     position: fixed;
     top: 0;
+    animation: fadein-sticky 0.3s ease-out;
+}
+
+@keyframes fadein-sticky {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0;
+    }
 }
 
 .fa-bars {

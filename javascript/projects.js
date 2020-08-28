@@ -1,9 +1,9 @@
 $(document).ready(function () {
     $("#all").on("click", function () {
-        $(".node").addClass("showup");
-        $(".php").addClass("showup");
         $(".node").removeClass("invisible");
         $(".php").removeClass("invisible");
+        $(".node").removeClass("showup");
+        $(".php").removeClass("showup");
     });
 
     $("#node").on("click", function () {

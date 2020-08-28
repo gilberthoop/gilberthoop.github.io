@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         adjustLinks();
-    })
+    });
 
 
     function adjustLinks() {
