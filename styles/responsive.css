@@ -168,6 +168,7 @@
         font-size: 24pt;
         padding-top: 0;
         text-align: center;
+        margin-left: 0;
     }
     .banner a {
         padding-top: 2em;
@@ -182,6 +183,12 @@
 }
 
 @media only screen and (max-width: 750px) {
+    .banner {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .content-grid .content-grid-2 {
         display: none;
     }
@@ -228,12 +235,12 @@
         opacity: 1;
         bottom: 30%;
     }
+    .contact {
+        background: rgb(34 55 89);
+    }
 }
 
 @media only screen and (max-width: 670px) {
-    .banner h1 {
-        font-size: 20pt;
-    }
     .about .content-grid {
         font-size: 11pt;
     }
@@ -270,9 +277,6 @@
     .banner {
         padding-top: 7em;
     }
-    .banner h1 {
-        width: 130%;
-    }
     .about {
         padding-top: 3.5em;
     }
@@ -288,9 +292,6 @@
     .description .info {
         font-size: 0.85em;
     }
-    .banner h1 {
-        font-size: 15pt;
-    }
     .banner img.media {
         height: 200px;
         width: 200px;
@@ -301,8 +302,11 @@
     .description .title {
         font-size: 1.5em;
     }
+    .banner {
+        padding-top: 8.5em;
+    }
     .banner h1 {
-        font-size: 13pt;
+        font-size: 18pt;
     }
     .grid {
         width: 400px;
@@ -322,10 +326,6 @@
 @media only screen and (max-width: 460px) {
     .banner {
         height: 120vh;
-        padding-top: 8em;
-    }
-    .banner h1 {
-        width: 160%;
     }
     .grid {
         width: 95%;
@@ -336,23 +336,25 @@
     .navigation-menu a {
         font-size: 1em;
     }
+    .banner {
+        padding-top: 12em;
+    }
     .banner img.media {
         display: none;
-    }
-    .banner h1 {
-        width: 170%;
     }
 }
 
 @media only screen and (max-width: 414px) {
     .banner {
         height: 100vh;
+        padding-top: 8em;
     }
 }
 
 @media only screen and (max-width: 380px) {
-    .banner {
-        display: block;
+    .banner h1 {
+        margin: 1.5em;
+        font-size: 16pt;
     }
     .about .content-grid {
         font-size: 10pt;
@@ -371,12 +373,8 @@
 }
 
 @media only screen and (max-width: 330px) {
-    .banner {
-        display: block;
-    }
     .banner h1 {
-        width: fit-content;
-        font-size: 9pt;
+        font-size: 14pt;
     }
     .grid {
         width: 100%;

@@ -1,7 +1,6 @@
 .contact {
     display: block;
     position: relative;
-    /* height: auto; */
     padding-top: 20%;
     padding-bottom: 20%;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
@@ -29,10 +28,15 @@ form {
     position: relative;
 }
 
+input, textarea {
+    background-color: rgb(4 28 65);
+    color: #fff;
+}
+
 .details, textarea, #submit-button {
     display: block;
     width: 100%;
-    margin: 5px auto;
+    margin: 2px auto;
     padding: 0.5em;
 }
 
@@ -43,4 +47,11 @@ textarea {
 #submit-button {
     margin-top: 5%;
     width: 40%;
+    background-color: rgb(4 28 65);
+    color: white;
+    border: none;
+}
+
+#submit-button:hover {
+    color: #ff2671;
 }
