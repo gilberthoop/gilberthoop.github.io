@@ -1,22 +1,30 @@
 $(document).ready(function () {
     $("#all").on("click", function () {
-        $(".node").removeClass("invisible");
-        $(".php").removeClass("invisible");
-        $(".node").removeClass("showup");
-        $(".php").removeClass("showup");
+        $(".node").removeClass("removed");
+        $(".php").removeClass("removed");
     });
+
 
     $("#node").on("click", function () {
-        $(".node").removeClass("invisible");
         $(".node").addClass("showup");
-        $(".php").addClass("invisible");
-        $(".php").removeClass("showup");
+
+        $(".php").addClass("collapse");
+
+        setTimeout(function () {
+            $(".php").addClass("removed");
+            $(".php").removeClass("showup");
+        }, 200);
     });
 
+
     $("#php").on("click", function () {
-        $(".php").removeClass("invisible");
         $(".php").addClass("showup");
-        $(".node").addClass("invisible");
-        $(".node").removeClass("showup");
+
+        $(".node").addClass("collapse");
+
+        setTimeout(function () {
+            $(".node").addClass("removed");
+            $(".node").removeClass("showup");
+        }, 200);
     });
 });

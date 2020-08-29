@@ -152,34 +152,34 @@
     background-position: center;
 }
 
-.node.invisible {
-    animation: disappear 0.7s;
-    animation-fill-mode: forwards;
+.node.collapse {
+    animation: disappear 0.4s ease-out;
+}
+
+.node.removed {
+    display: none;
 }
 
 .node.showup {
-    animation: appear 0.9s;
-    animation-fill-mode: forwards;
+    animation: appear 0.3s ease-out;
+    display: block;
 }
 
-.node.move {
-    animation: adjust 0.9s;
-    animation-fill-mode: forwards;
+.php.collapse {
+    animation: disappear 0.4s ease-out;
 }
 
-.php.invisible {
-    animation: disappear 0.7s;
-    animation-fill-mode: forwards;
+.php.removed {
+    display: none;
 }
 
 .php.showup {
-    animation: appear 0.9s;
-    animation-fill-mode: forwards;
+    animation: appear 0.3s ease-out;
+    display: block;
 }
 
 @keyframes appear {
     from {
-        position: absolute;
         opacity: 0;
         transform: scale(0);
         top: 400px;
@@ -198,7 +198,6 @@
         top: 0;
     }
     to {
-        position: absolute;
         opacity: 0;
         transform: scale(0);
         top: 400px;
