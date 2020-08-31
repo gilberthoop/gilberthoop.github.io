@@ -244,10 +244,17 @@
             <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
         </svg>
         <h1>Let's keep in touch!</h1>
-        <form action="#" method="POST">
-            <input class="details" type="text" name="name" placeholder="Name" required />
-            <input class="details" type="email" name="email" placeholder="Email" required />
-            <textarea type="text" name="message" placeholder="Your message" required></textarea>
+        <form id="contact-form">
+            <input class="details" type="text" id="name" name="name" placeholder="Name" required />
+            <input class="details" type="email" id="email" name="email" placeholder="Email" required />
+            <textarea type="text" id="textarea" name="message" placeholder="Your message" required></textarea>
+            <div id="response">
+                <span>Thank you for reaching out! Your message was sent.
+                </span>
+                <span id="close">
+                    <i class="fa fa-window-close" aria-hidden="true"></i>
+                </span>
+            </div>
             <input class="button" id="submit-button" type="submit" value="Submit" />
         </form>
     </section>

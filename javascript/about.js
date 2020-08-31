@@ -16,4 +16,22 @@ $(document).ready(function () {
     $(window).scroll(function () {
         slideIn();
     });
+
+
+    // Prevent default form submit behaviour and show response
+    $('#submit-button').on('click', function (event) {
+        // Inputs must not be empty
+        if ($('#name').val() !== '' && $('#email').val() !== '' && $('textarea').val() !== '') {
+            event.preventDefault();
+            $('#contact-form').trigger('reset');
+            $('#response').removeClass('collapse');
+            $('#response').addClass('visible');
+        }
+    });
+
+    $('#close').on('click', function () {
+        $('#response').removeClass('visible');
+        $('#response').addClass('collapse');
+    });
+
 });
