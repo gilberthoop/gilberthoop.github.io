@@ -14,7 +14,7 @@ $(document).ready(function () {
         },
         ufvManager: {
             title: "UFV Appointment Manager",
-            detail: "UFV Appointment Manager is an online appointment system by University of the Fraser Valley. Students use it to book appointments with Academic and Career Advisors and Faculty Staff. The application is built in Angular, Wordpress, and MySQL.",
+            detail: "UFV Appointment Manager is an online appointment system by University of the Fraser Valley. Students use it to book appointments with Academic and Career Advisors and Faculty Staff. The application is built in Angular, PHP Laravel, and MySQL.",
             link: "https://am.ufv.ca/amonline/",
             imageSlides: ["./media/ufv/advisor.webp", "./media/ufv/login.webp", "./media/ufv/qualify.webp"]
         },
