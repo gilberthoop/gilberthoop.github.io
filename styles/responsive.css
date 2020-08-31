@@ -215,7 +215,6 @@
     }
     .navigation-menu li {
         margin: 0;
-        width: 130px;
     }
     .grid:hover .top-text {
         top: 25%;
@@ -241,6 +240,9 @@
 }
 
 @media only screen and (max-width: 670px) {
+    .navigation-menu a {
+        margin: 0 1.7em;
+    }
     .about .content-grid {
         font-size: 11pt;
     }

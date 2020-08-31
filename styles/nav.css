@@ -85,3 +85,7 @@
 .topnav #links a {
     color: #fff;
 }
+
+#github {
+    float: right;
+}
