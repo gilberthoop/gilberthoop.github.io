@@ -134,6 +134,11 @@
     background-image: url("../media/titan22.webp");
 }
 
+#bcit {
+    background-image: url("../media/bcit/bcit.webp");
+    background-position: center;
+}
+
 #bigorange {
     background-color: #f2711c;
     background-image: url("../media/big_orange.webp");
@@ -178,6 +183,19 @@
     display: block;
 }
 
+.html.collapse {
+    animation: disappear 0.4s ease-out;
+}
+
+.html.removed {
+    display: none;
+}
+
+.html.showup {
+    animation: appear 0.3s ease-out;
+    display: block;
+}
+
 @keyframes appear {
     from {
         opacity: 0;
@@ -210,7 +228,7 @@
     font-size: 3em;
 }
 
-#ufv+.top-text>h1, #idl-peru+.top-text>h1, #bigorange+.top-text>h1 {
+#ufv+.top-text>h1, #idl-peru+.top-text>h1, #bigorange+.top-text>h1, #bcit+.top-text>h1 {
     font-size: 2em;
 }
 

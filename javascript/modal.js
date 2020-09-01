@@ -36,6 +36,12 @@ $(document).ready(function () {
             link: "https://www.titan22.com/",
             imageSlides: ["./media/titan22/home.webp", "./media/titan22/products.webp", "./media/titan22/products2.webp", "./media/titan22/blog.webp"]
         },
+        bcitProject: {
+            title: "Advanced Web Design Final Project",
+            detail: "This final project was a proposal for the new page layout of COMP 1950's course page.",
+            "link": "https://comp1950final.netlify.app/",
+            imageSlides: ["./media/bcit/bcit.webp", "./media/bcit/bcit2.webp", "./media/bcit/bcit3.webp", "./media/bcit/bcit4.webp"]
+        },
         bigOrange: {
             title: "Big Orange Food Express",
             detail: "Big Orange lets users order food from a wide selection of restaurants in Los Angeles, CA. This app is not intended for commercial use but rather educational. The application is built in Angular, Node on Express, and MySQL.",
