@@ -104,56 +104,56 @@
 }
 
 #willpizza {
-    background-image: url("../media/pizza.webp");
+    background-image: url("../media/pizza.jpg");
 }
 
 #devhub {
     background-color: #0f0b0bd9;
-    background-image: url("../media/developers.webp");
+    background-image: url("../media/developers.jpg");
     background-position: center;
 }
 
 #ufv {
     background-color: #00713c;
-    background-image: url("../media/ufv.webp");
+    background-image: url("../media/ufv.jpg");
 }
 
 #sfc {
     background-color: #62007a;
-    background-image: url("../media/sfc.webp");
+    background-image: url("../media/sfc.jpg");
     background-position: center;
 }
 
 #idl-peru {
     background-color: #fff;
-    background-image: url("../media/idlperu.webp");
+    background-image: url("../media/idlperu.jpg");
     background-position: center;
 }
 
 #titan-22 {
-    background-image: url("../media/titan22.webp");
+    background-image: url("../media/titan22.jpg");
 }
 
 #bcit {
-    background-image: url("../media/bcit/bcit.webp");
+    background-image: url("../media/bcit/bcit.jpg");
     background-position: center;
 }
 
 #bigorange {
     background-color: #f2711c;
-    background-image: url("../media/big_orange.webp");
+    background-image: url("../media/big_orange.jpg");
     background-position: center;
 }
 
 #messenger {
     background-color: #235f7c;
-    background-image: url("../media/node_socket.webp");
+    background-image: url("../media/node_socket.jpg");
     background-position: center;
 }
 
 #itunes {
     background-color: #f32c78;
-    background-image: url("../media/itunes.webp");
+    background-image: url("../media/itunes.jpg");
     background-position: center;
 }
 
@@ -242,4 +242,28 @@
 .button:hover {
     background-color: #ff2671;
     color: white;
+}
+
+#projects-desktop {
+    /* display: none; */
+}
+
+#projects-mobile {
+    /* display: none; */
+    margin-top: 2em;
+}
+
+#project-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.list-button {
+    margin: 1em auto;
+    padding: 1em 0;
+    background-color: yellow;
+    width: 20%;
+    cursor: pointer;
 }
