@@ -64,6 +64,7 @@
 
 .topnav #links {
     display: none;
+    text-transform: uppercase;
 }
 
 .topnav a {
