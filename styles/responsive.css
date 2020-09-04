@@ -288,6 +288,19 @@
     .about .content-grid {
         font-size: 10pt;
     }
+    .grid:hover .grid-bg {
+        opacity: 1;
+    }
+    .grid .top-text, .grid .bottom-text {
+        display: none;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+    }
+    .project-link {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 560px) {

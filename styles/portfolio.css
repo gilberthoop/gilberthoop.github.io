@@ -267,3 +267,9 @@
     width: 20%;
     cursor: pointer;
 }
+
+.project-link {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
