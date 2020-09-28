@@ -35,10 +35,10 @@ $(document).ready(function () {
         relentless: {
             title: "Relentless Conference",
             language: "React, Redux, and Node on Express",
-            detail: "Relentless is a registration and payment system for the conference organized by Singles For Christ. The application is built in React, Redux, Node, and MongoDB.",
-            link: "http://relentless-sfcbc.herokuapp.com/",
-            photo: "./media/sfc.jpg",
-            imageSlides: ["./media/relentless/reg1.jpg", "./media/relentless/reg2.jpg", "./media/relentless/reg3.jpg"]
+            detail: "Relentless is a landing website which includes a registration and payment system for the conference entitled Relentless organized by Singles For Christ. The application is built in React, Redux, PHP Laravel, and MySQL.",
+            link: "http://relentless-sfcgva.herokuapp.com/",
+            photo: "./media/sfc.png",
+            imageSlides: ["./media/sfc.png", "./media/relentless/reg1.png", "./media/relentless/posts.png", "./media/relentless/about.png"]
         },
         titan22: {
             title: "Titan 22",
