@@ -37,8 +37,8 @@ $(document).ready(function () {
             language: "React, Redux, and Node on Express",
             detail: "Relentless is a landing website which includes a registration and payment system for the conference entitled Relentless organized by Singles For Christ. The application is built in React, Redux, PHP Laravel, and MySQL.",
             link: "http://relentless-sfcgva.herokuapp.com/",
-            photo: "./media/sfc.png",
-            imageSlides: ["./media/sfc.png", "./media/relentless/reg1.png", "./media/relentless/posts.png", "./media/relentless/about.png"]
+            photo: "./media/sfc.jpg",
+            imageSlides: ["./media/sfc.jpg", "./media/relentless/reg1.jpg", "./media/relentless/posts.jpg", "./media/relentless/about.jpg"]
         },
         titan22: {
             title: "Titan 22",
