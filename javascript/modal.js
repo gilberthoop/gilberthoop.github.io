@@ -10,8 +10,8 @@ $(document).ready(function () {
         },
         idl: {
             title: "Instituto de Defensa Legal",
-            language: "React & PHP Laravel",
-            detail: "Instituto de Defensa Legal (English: Institute of Legal Defense) is an institution of civil society founded in 1983, which aims to promote and defend human rights, democracy and peace in Peru and Latin America. The application is built in React and PHP Laravel framework.",
+            language: "React & (PHP) Wordpress",
+            detail: "Instituto de Defensa Legal (English: Institute of Legal Defense) is an institution of civil society founded in 1983, which aims to promote and defend human rights, democracy and peace in Peru and Latin America. The application is built in React and Wordpress.",
             link: "https://idl.org.pe/",
             photo: "./media/idlperu.jpg",
             imageSlides: ["./media/idl/areas.jpg", "./media/idl/noticas.jpg", "./media/idl/videoclip.jpg"]
