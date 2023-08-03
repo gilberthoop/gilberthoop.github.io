@@ -50,11 +50,11 @@ textarea {
 }
 
 #submit-button:hover {
-    color: #ff2671;
+    color: #85deff;
 }
 
 #response {
-    background: #ff2671;
+    background: #85deff;
     color: rgb(240, 240, 240);
     text-align: center;
     opacity: 0;

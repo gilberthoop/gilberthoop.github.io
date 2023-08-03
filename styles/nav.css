@@ -4,7 +4,7 @@
     background-color: rgb(4 28 65);
     color: #fff;
     z-index: 1;
-    border-bottom: 2px solid #ff2671;
+    border-bottom: 2px solid #85deff;
 }
 
 .navigation-menu ul {
@@ -25,12 +25,12 @@
 }
 
 .navigation-menu a:hover, .navigation-menu a:active {
-    color: #ff2671;
+    color: #85deff;
 }
 
 .navigation-menu .active {
     border-bottom-color: white;
-    color: #ff2671;
+    color: #85deff;
 }
 
 .navigation-menu.sticky {
@@ -59,7 +59,7 @@
     position: fixed;
     width: 100%;
     z-index: 1;
-    border-bottom: 2px solid #ff2671;
+    border-bottom: 2px solid #85deff;
 }
 
 .topnav #links {
@@ -68,7 +68,7 @@
 }
 
 .topnav a {
-    color: #ff2671;
+    color: #85deff;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;

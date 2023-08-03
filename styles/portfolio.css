@@ -80,7 +80,7 @@
 }
 
 .grid .top-text span {
-    color: #ff2671;
+    color: #85deff;
 }
 
 .grid:hover .top-text {
@@ -234,13 +234,13 @@
 
 .button {
     background-color: white;
-    color: #ff2671;
+    color: #85deff;
     font-size: 15pt;
-    border-color: #ff2671;
+    border-color: #85deff;
 }
 
 .button:hover {
-    background-color: #ff2671;
+    background-color: #85deff;
     color: white;
 }
 

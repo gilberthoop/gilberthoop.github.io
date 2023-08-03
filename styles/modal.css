@@ -59,7 +59,7 @@
 }
 
 .description .title {
-    color: #ff2671;
+    color: #85deff;
     margin-top: 15px;
     margin-bottom: 0;
 }
@@ -70,7 +70,7 @@
 
 .description button {
     border-style: solid;
-    background-color: #ff2671;
+    background-color: #85deff;
     margin-top: 12px;
     padding: 7px 10px;
     color: white;
@@ -82,7 +82,7 @@
     border: none;
     background: none;
     background-color: #fff;
-    color: #ff2671;
+    color: #85deff;
     font-weight: bold;
 }
 
