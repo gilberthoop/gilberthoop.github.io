@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Poppins:wght@400;500;600&family=Roboto+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+/* .heading {
+  @apply text-center mb-4 text-4xl;
+  @apply md:text-7xl;
+  @apply lg:text-left lg:text-8xl;
+}
+
+.subheading {
+  @apply px-8 py-2 text-center;
+} */
+
+:root {
+  font-family: Poppins;
+}
+
+.heading {
+  color: #86574E;
+  line-height: 1.5 !important;
+}
+
+.heading-main {
+  @apply text-3xl text-center;
+  @apply lg:text-6xl lg:text-left;
+  font-family: Roboto Mono;
+}
+
+.heading-main--centered {
+  @apply text-center;
+}
+
+.heading-main--large {
+  @apply text-6xl text-center;
+  @apply md:text-7xl;
+  @apply lg:text-8xl;
+}
+
+.subheading {
+  @apply text-3xl;
+  @apply md:text-4xl;
+  @apply lg:text-5xl;
+  font-family: Poppins;
+}
+
+.subheading--cyan {
+  color: #00D8FF;
+}
+
+.subheading--green {
+  color: #0DA286;
+}
+
+.subheading--red {
+  color: #B52E31;
+}

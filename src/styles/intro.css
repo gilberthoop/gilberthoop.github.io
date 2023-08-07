@@ -1,0 +1,14 @@
+.intro-container {
+  @apply flex flex-col-reverse items-center;
+  @apply md:flex-row;
+}
+
+.intro-container__left-section {
+  @apply w-full;
+  @apply md:w-7/12;
+}
+
+.intro-container__right-section {
+  @apply w-full;
+  @apply md:w-5/12;
+}

@@ -1,0 +1,49 @@
+.button-handle {
+  @apply outline rounded-full py-2 px-4 bg-transparent my-8;
+  @apply md:my-16;
+}
+
+.media img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.media--rounded {
+  border-radius: 50%;
+  width: 20em;
+  height: 20em;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.icon__container {
+  @apply flex;
+}
+
+.icon__frontend {
+  
+}
+
+@media screen and (min-width: 640px) {/* .media--slanted {
+  transform: skewY(8deg);
+  width: 110%;
+  height: 80%;
+} */
+
+.media img {
+  height: 75%;
+  border-radius: 10px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .icon {
+    width: 100px;
+    height: 100px;
+  }
+}

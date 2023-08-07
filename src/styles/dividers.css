@@ -1,0 +1,12 @@
+.divider {
+  @apply flex flex-col px-10 pb-20;
+  @apply md:flex-row;
+  @apply lg:px-20 lg:py-20;
+  @apply xl:px-40;
+}
+
+.divider__section {
+  @apply w-full;
+  @apply md:w-1/2;
+  @apply lg:p-12;
+}
