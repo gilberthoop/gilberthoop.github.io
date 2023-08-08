@@ -1,9 +1,16 @@
+import SFCTNC2023 from "../../assets/images/projects/react/poster.jpeg";
+import OBE from "../../assets/images/projects/react/obe.png";
+import WBYC from "../../assets/images/projects/vue/wbyc.png";
+import ACD from "../../assets/images/projects/vue/acd.png";
+import SFCTNC2022 from "../../assets/images/projects/vue/sfctnc2022.png";
+import IDL from "../../assets/images/projects/angular/idl.png";
+
 export const REACT_PROJECTS = [
   {
     link: "https://sfctncbreakthrough.vercel.app/",
     title: "SFC True North Conference 2023: Breakthrough",
     description: "2023 Conference website for CFC-Singles for Christ Canada",
-    image: "/src/assets/images/projects/react/poster.jpeg",
+    image: SFCTNC2023,
     color: "#234D71",
   },
   {
@@ -11,7 +18,7 @@ export const REACT_PROJECTS = [
     title: "Oldcastle BuildingEnvelope",
     description:
       "The leading supplier of value-added, glazing-focused products and services",
-    image: "/src/assets/images/projects/react/obe.png",
+    image: OBE,
     color: "#3b5b15",
   },
 ];
@@ -22,21 +29,21 @@ export const VUE_PROJECTS = [
     title: "We Buy Your Car",
     description:
       "Skip the hassle of selling your car privately. Get your instant online offer and sell your car to Canada Drives today!",
-    image: "/src/assets/images/projects/vue/wbyc.png",
+    image: WBYC,
     color: "#004b7d",
   },
   {
     link: "https://www.autocreditdeals.ca/",
     title: "AutoCredit Deals",
     description: "An Easier Way to Get a Car",
-    image: "/src/assets/images/projects/vue/acd.png",
+    image: ACD,
     color: "#0d7d68",
   },
   {
     link: "https://github.com/gilberthoop/truenorthconference-sfc",
     title: "SFC True North Conference 2022",
     description: "2022 Conference website for CFC-Singles for Christ Canada",
-    image: "/src/assets/images/projects/vue/sfctnc2022.png",
+    image: SFCTNC2022,
     color: "#181d84",
   },
 ];
@@ -46,7 +53,7 @@ export const ANGULAR_PROJECTS = [
     link: "https://idl.org.pe/",
     title: "Instituto de Defensa Legal",
     description: "Peru’s Legal Institute of Defense website",
-    image: "/src/assets/images/projects/angular/idl.png",
+    image: IDL,
     color: "#004b7d",
   },
 ];
